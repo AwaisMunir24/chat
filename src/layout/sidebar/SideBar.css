@@ -1,0 +1,81 @@
+
+.side--bar--section {
+  height: 85vh;
+  overflow-x: hidden;
+}
+
+.side--bar--section::-webkit-scrollbar-thumb{
+  background-color: #3684d8;
+}
+
+.chat_side_bar {
+  width: 350px;
+  background-color: white;
+  height: 100%;
+}
+.input_area input {
+  border: none;
+  font-size: 14px;
+  height: 60px;
+  padding-left: 45px;
+}
+.chat_heading {
+  padding: 34px 17px;
+}
+.chat_heading h4 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.input_area i {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  font-size: 18px;
+}
+.input_area input:focus {
+  border: none !important;
+  outline: none !important ;
+  box-shadow: none;
+}
+.nav-pills .nav-link.active {
+  background: none !important;
+  color: #3684d8 !important;
+  position: relative;
+  top: 14px;
+  border-bottom: 3px solid #467eb9 !important;
+  border-radius: 0px !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-pills .nav-link {
+  position: relative !important;
+  top: 3px !important;
+  color: #838c91 !important;
+  border: none !important;
+  border-radius: 0px !important;
+  font-size: 18px;
+  height: 62px;
+
+  width: 155px;
+}
+div#pills-tabContent {
+  padding: 0px;
+}
+ul#pills-tab {
+  height: 65px;
+  justify-content: space-between;
+  padding: 0;
+}
+.list {
+  margin: 8px;
+}
+.list2 .user100 ,.list2  .urgent,.list2 .customer ,.list2 .para{
+display: none;
+}
+ .main_wrapper_sidebar{
+  width: 330px;
+}
+.list2 .main_wrapper_sidebar{
+  align-items: center;
+}
